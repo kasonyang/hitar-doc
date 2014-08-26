@@ -28,6 +28,7 @@ Hitar是基于Doctrine-DBAL的ORM框架。
     //构建ORM模型
     /**
      * @table article Article
+     */
     class Article extends \Hitar\RecordBase{
         
         /**
@@ -52,6 +53,7 @@ Hitar是基于Doctrine-DBAL的ORM框架。
     $article = new \Article();
     $article->title = '一本书';
     $article->save();
+    echo $article->getId();
     
     //取得Table对象
     $tb = \Article::table();
