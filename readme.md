@@ -67,7 +67,7 @@ Hitar是基于Doctrine-DBAL的ORM框架。
 
 
 
-#[教程](get-started.md)
+#[教程](index.md)
 
 #支持的数据库
 
